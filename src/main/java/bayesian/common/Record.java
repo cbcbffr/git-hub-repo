@@ -13,6 +13,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Record {
-	int label;
-	Map<Integer, Double> features = new HashMap<Integer, Double>();
+	public int classId;
+	public Map<Integer, Double> features = new HashMap<Integer, Double>();
 }
