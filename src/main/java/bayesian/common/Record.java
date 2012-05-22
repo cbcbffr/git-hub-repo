@@ -9,6 +9,10 @@
 
 package bayesian.common;
 
-public class Record {
+import java.util.HashMap;
+import java.util.Map;
 
+public class Record {
+	int label;
+	Map<Integer, Double> features = new HashMap<Integer, Double>();
 }
