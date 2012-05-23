@@ -1,0 +1,40 @@
+wordId <- 1:4
+names(wordId) <- c("apple", "banana", "orange", "is")
+
+docNum = 3
+
+doc1 <- c("apple", "banana", "orange")
+doc2 <- c("apple", "orange")
+doc3 <- c("is")
+
+tdmat <- matrix(0, length(wordId), docNum)
+
+tdmat[wordId[doc1], 1] <- 1
+tdmat[wordId[doc2], 2] <- 1
+tdmat[wordId[doc3], 3] <- 1
+
+rank = min(length(wordId), docNum)
+
+tdmatSVD = svd(tdmat, rank, rank)
+
+sigma <- matrix(0, rank, rank)
+diag(sigma) <- tdmatSVD$d
+sigmainv <- solve(sigma)
+
+cofMatrix <- crossprod(t(tdmatSVD$u), sigmainv)
+
+getCampQuery <- function(query) crossprod(cofMatrix, query)
+getCampScore <- function(campQuery) crossprod(t(tdmatSVD$v), campQuery)
+cosine <- function(x,y) crossprod(x,y) / sqrt(crossprod(x)) / sqrt(crossprod(y))
+
+query <- integer(length(wordId))
+query[wordId[c("banana")]] <- 1
+campQuery <- getCampQuery(query)
+score <- getCampScore(campQuery)
+score
+
+doc <- integer(length(wordId))
+doc[wordId[c("orange")]] <- 1
+campDoc <- getCampQuery(doc)
+crossprod(campDoc, campQuery)
+cosine(campDoc, campQuery)
