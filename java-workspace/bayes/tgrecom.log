@@ -1,0 +1,3 @@
+2012-05-23 19:22:50,396 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:60 - Vocabulary Size: 5
+2012-05-23 19:22:50,399 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:61 - Class Number: 2
+2012-05-23 19:22:50,399 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:62 - Model Params Number: 11
