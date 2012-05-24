@@ -7,7 +7,7 @@
  */
 
 
-package bayesian.naivebayes;
+package bayes.naivebayes;
 
 import java.io.File;
 import java.io.IOException;
@@ -19,8 +19,9 @@ import java.util.Set;
 
 import org.apache.commons.io.FileUtils;
 
-import bayesian.common.Record;
-import bayesian.common.Utility;
+import bayes.common.NumericPair;
+import bayes.common.Record;
+import bayes.common.Utility;
 
 public class NaiveBayesTrain {
 	
@@ -34,7 +35,7 @@ public class NaiveBayesTrain {
 	private Set<Integer> vocabulary = new HashSet<Integer>();
 
 	//Word Frequencies Given Class
-	private Map<Integer, Map<Integer, Double>> modelParams = new HashMap<Integer, Map<Integer, Double>>();
+	private Map<NumericPair.KeyPair, Double> knownFeaFre = new HashMap<NumericPair.KeyPair, Double>();
 	
 	public void train(List<Record> trainRecords) {
 		
@@ -47,11 +48,10 @@ public class NaiveBayesTrain {
 			for (Integer feaId : record.features.keySet()) {
 				vocabulary.add(feaId);
 				Double feaFre = record.features.get(feaId);
-				if (!modelParams.containsKey(record.classId))
-					modelParams.put(record.classId, new HashMap<Integer, Double>());
-				Double wordFreGivenClass = modelParams.get(record.classId).get(feaId);
-				modelParams.get(record.classId).put(feaId, (wordFreGivenClass==null)?feaFre:feaFre+wordFreGivenClass);
 				length += feaFre;
+				NumericPair.KeyPair keyPair = new NumericPair.KeyPair(record.classId, feaId);
+				Double totalFeaFre = knownFeaFre.get(keyPair);
+				knownFeaFre.put(keyPair, (totalFeaFre==null)?feaFre:(totalFeaFre+feaFre));
 			}
 			classIdToLength.put(record.classId, classIdToLength.get(record.classId) + length);
 		}
@@ -61,13 +61,13 @@ public class NaiveBayesTrain {
 		StringBuilder output = new StringBuilder();
 		output.append(vocabulary.size()).append("\n");
 		output.append(classIdToLength.size()).append("\n");
-		for (Integer classId : classIdToLength.keySet())
-			output.append(classId).append("\t").append(classIdToLength.get(classId)).append("\t").append(classIdToFre.get(classId)).append("\n");
-		for (Integer classId : modelParams.keySet()) {
-			Map<Integer, Double> wordFre = modelParams.get(classId);
-			for (Integer feaId : wordFre.keySet()) {
-				output.append(classId).append("\t").append(feaId).append("\t").append(wordFre.get(feaId)).append("\n");
-			}
+		for (Integer classId : classIdToLength.keySet()) {
+			output.append(classId).append("\t").append(classIdToLength.get(classId)).
+				append("\t").append(classIdToFre.get(classId)).append("\n");
+		}
+		for (NumericPair.KeyPair keyPair : knownFeaFre.keySet()) {
+			output.append(keyPair.getFirst()).append("\t").append(keyPair.getSecond()).
+				append("\t").append(knownFeaFre.get(keyPair)).append("\n");
 		}
 		FileUtils.write(new File(path), output);
 	}

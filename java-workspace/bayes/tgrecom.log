@@ -1,3 +1,127 @@
 2012-05-23 19:22:50,396 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:60 - Vocabulary Size: 5
 2012-05-23 19:22:50,399 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:61 - Class Number: 2
 2012-05-23 19:22:50,399 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:62 - Model Params Number: 11
+2012-05-24 10:07:19,006 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:60 - Vocabulary Size: 5
+2012-05-24 10:07:19,009 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:61 - Class Number: 2
+2012-05-24 10:07:19,010 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:62 - Model Params Number: 10
+2012-05-24 11:39:03,028 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:61 - Vocabulary Size: 5
+2012-05-24 11:39:03,029 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:62 - Class Number: 2
+2012-05-24 11:39:03,030 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:63 - Model Params Number: 10
+2012-05-24 11:45:05,924 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:66 - Vocabulary Size: 5
+2012-05-24 11:45:05,926 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:67 - Class Number: 2
+2012-05-24 11:45:05,926 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:68 - Model Params Number: 10
+2012-05-24 11:45:05,926 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:69 - Total Training Records Num: 3
+2012-05-24 11:53:38,976 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:66 - Vocabulary Size: 5
+2012-05-24 11:53:38,977 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:67 - Class Number: 2
+2012-05-24 11:53:38,977 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:68 - Model Params Number: 10
+2012-05-24 11:53:38,978 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:69 - Total Training Records Num: 3
+2012-05-24 11:54:29,440 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:66 - Vocabulary Size: 5
+2012-05-24 11:54:29,441 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:67 - Class Number: 2
+2012-05-24 11:54:29,441 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:68 - Model Params Number: 10
+2012-05-24 11:54:29,441 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:69 - Total Training Records Num: 3
+2012-05-24 12:09:57,580 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:66 - Vocabulary Size: 5
+2012-05-24 12:09:57,582 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:67 - Class Number: 2
+2012-05-24 12:09:57,582 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:68 - Model Params Number: 10
+2012-05-24 12:09:57,582 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:69 - Total Training Records Num: 3
+2012-05-24 12:10:04,280 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:66 - Vocabulary Size: 5
+2012-05-24 12:10:04,281 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:67 - Class Number: 2
+2012-05-24 12:10:04,281 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:68 - Model Params Number: 10
+2012-05-24 12:10:04,281 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:69 - Total Training Records Num: 3
+2012-05-24 12:16:54,439 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:69 - Vocabulary Size: 5
+2012-05-24 12:16:54,441 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:70 - Class Number: 2
+2012-05-24 12:16:54,441 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:71 - Model Params Number: 10
+2012-05-24 12:16:54,441 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:72 - Total Training Records Num: 3
+2012-05-24 13:48:31,728 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:69 - Vocabulary Size: 5
+2012-05-24 13:48:31,729 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:70 - Class Number: 2
+2012-05-24 13:48:31,729 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:71 - Model Params Number: 10
+2012-05-24 13:48:31,730 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:72 - Total Training Records Num: 3
+2012-05-24 13:54:54,687 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:76 - Vocabulary Size: 5
+2012-05-24 13:54:54,689 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:77 - Class Number: 2
+2012-05-24 13:54:54,689 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:78 - Model Params Number: 10
+2012-05-24 13:54:54,689 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:79 - Total Training Records Num: 3
+2012-05-24 14:00:17,367 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:76 - Vocabulary Size: 7
+2012-05-24 14:00:17,369 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:77 - Class Number: 2
+2012-05-24 14:00:17,369 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:78 - Model Params Number: 7
+2012-05-24 14:00:17,369 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:79 - Total Training Records Num: 6
+2012-05-24 14:02:40,986 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:76 - Vocabulary Size: 4
+2012-05-24 14:02:40,987 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:77 - Class Number: 2
+2012-05-24 14:02:40,987 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:78 - Model Params Number: 8
+2012-05-24 14:02:40,987 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:79 - Total Training Records Num: 4
+2012-05-24 14:03:19,925 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:76 - Vocabulary Size: 4
+2012-05-24 14:03:19,926 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:77 - Class Number: 2
+2012-05-24 14:03:19,926 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:78 - Model Params Number: 8
+2012-05-24 14:03:19,926 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:79 - Total Training Records Num: 4
+2012-05-24 14:06:23,952 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:76 - Vocabulary Size: 4
+2012-05-24 14:06:23,953 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:77 - Class Number: 2
+2012-05-24 14:06:23,953 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:78 - Model Params Number: 8
+2012-05-24 14:06:23,953 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:79 - Total Training Records Num: 4
+2012-05-24 14:08:14,392 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:76 - Vocabulary Size: 4
+2012-05-24 14:08:14,394 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:77 - Class Number: 2
+2012-05-24 14:08:14,394 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:78 - Model Params Number: 8
+2012-05-24 14:08:14,394 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:79 - Total Training Records Num: 4
+2012-05-24 14:09:53,993 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:76 - Vocabulary Size: 4
+2012-05-24 14:09:53,995 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:77 - Class Number: 2
+2012-05-24 14:09:53,995 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:78 - Model Params Number: 8
+2012-05-24 14:09:53,995 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:79 - Total Training Records Num: 4
+2012-05-24 14:12:32,429 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:76 - Vocabulary Size: 5
+2012-05-24 14:12:32,430 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:77 - Class Number: 2
+2012-05-24 14:12:32,430 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:78 - Model Params Number: 9
+2012-05-24 14:12:32,430 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:79 - Total Training Records Num: 4
+2012-05-24 14:19:54,646 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:76 - Vocabulary Size: 5
+2012-05-24 14:19:54,647 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:77 - Class Number: 2
+2012-05-24 14:19:54,647 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:78 - Model Params Number: 9
+2012-05-24 14:19:54,648 [main] INFO  bayesian.naivebayes.NaiveBayesPredictor:79 - Total Training Records Num: 4
+2012-05-24 15:18:07,051 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:74 - Vocabulary Size: 5
+2012-05-24 15:18:07,052 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:75 - Class Number: 2
+2012-05-24 15:18:07,052 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:76 - Model Params Number: 9
+2012-05-24 15:18:07,052 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:77 - Total Training Records Num: 4
+2012-05-24 15:19:43,301 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:76 - Vocabulary Size: 5
+2012-05-24 15:19:43,302 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:77 - Class Number: 2
+2012-05-24 15:19:43,302 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:78 - Model Params Number: 9
+2012-05-24 15:19:43,302 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:79 - Total Training Records Num: 0
+2012-05-24 15:32:36,017 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:76 - Vocabulary Size: 5
+2012-05-24 15:32:36,019 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:77 - Class Number: 2
+2012-05-24 15:32:36,019 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:78 - Model Params Number: 9
+2012-05-24 15:32:36,019 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:79 - Total Training Records Num: 0
+2012-05-24 15:34:50,553 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:76 - Vocabulary Size: 5
+2012-05-24 15:34:50,554 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:77 - Class Number: 2
+2012-05-24 15:34:50,554 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:78 - Model Params Number: 9
+2012-05-24 15:34:50,554 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:79 - Total Training Records Num: 0
+2012-05-24 15:35:32,096 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:76 - Vocabulary Size: 3
+2012-05-24 15:35:32,097 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:77 - Class Number: 2
+2012-05-24 15:35:32,097 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:78 - Model Params Number: 5
+2012-05-24 15:35:32,097 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:79 - Total Training Records Num: 0
+2012-05-24 15:36:25,816 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:76 - Vocabulary Size: 3
+2012-05-24 15:36:25,818 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:77 - Class Number: 2
+2012-05-24 15:36:25,818 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:78 - Model Params Number: 5
+2012-05-24 15:36:25,818 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:79 - Total Training Records Num: 0
+2012-05-24 17:25:05,217 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:69 - Vocabulary Size: 3
+2012-05-24 17:25:05,218 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:70 - Class Number: 2
+2012-05-24 17:25:05,218 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:71 - Model Params Number: 5
+2012-05-24 17:25:05,218 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:72 - Total Training Records Num: 0
+2012-05-24 17:25:48,638 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:69 - Vocabulary Size: 3
+2012-05-24 17:25:48,640 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:70 - Class Number: 2
+2012-05-24 17:25:48,640 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:71 - Model Params Number: 5
+2012-05-24 17:25:48,640 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:72 - Total Training Records Num: 0
+2012-05-24 17:36:51,565 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:69 - Vocabulary Size: 3
+2012-05-24 17:36:51,566 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:70 - Class Number: 2
+2012-05-24 17:36:51,566 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:71 - Model Params Number: 5
+2012-05-24 17:36:51,566 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:72 - Total Training Records Num: 0
+2012-05-24 17:37:21,842 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:69 - Vocabulary Size: 3
+2012-05-24 17:37:21,844 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:70 - Class Number: 2
+2012-05-24 17:37:21,844 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:71 - Model Params Number: 5
+2012-05-24 17:37:21,844 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:72 - Total Training Records Num: 0
+2012-05-24 17:37:43,707 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:76 - Vocabulary Size: 3
+2012-05-24 17:37:43,708 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:77 - Class Number: 2
+2012-05-24 17:37:43,708 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:78 - Model Params Number: 5
+2012-05-24 17:37:43,709 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:79 - Total Training Records Num: 0
+2012-05-24 17:37:58,189 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:76 - Vocabulary Size: 3
+2012-05-24 17:37:58,190 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:77 - Class Number: 2
+2012-05-24 17:37:58,190 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:78 - Model Params Number: 5
+2012-05-24 17:37:58,190 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:79 - Total Training Records Num: 0
+2012-05-24 17:39:45,108 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:73 - Vocabulary Size: 3
+2012-05-24 17:39:45,109 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:74 - Class Number: 2
+2012-05-24 17:39:45,109 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:75 - Model Params Number: 5
+2012-05-24 17:42:49,843 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:66 - Vocabulary Size: 3
+2012-05-24 17:42:49,844 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:67 - Class Number: 2
+2012-05-24 17:42:49,844 [main] INFO  bayes.naivebayes.NaiveBayesPredictor:68 - Model Params Number: 5

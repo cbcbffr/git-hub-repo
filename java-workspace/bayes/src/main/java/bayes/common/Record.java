@@ -7,7 +7,7 @@
  */
 
 
-package bayesian.common;
+package bayes.common;
 
 import java.util.HashMap;
 import java.util.Map;

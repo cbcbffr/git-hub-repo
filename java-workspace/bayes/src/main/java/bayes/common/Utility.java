@@ -7,7 +7,7 @@
  */
 
 
-package bayesian.common;
+package bayes.common;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,8 +21,10 @@ public class Utility {
 	public static List<Record> loadRecords(String path) throws IOException {
 		
 		List<String> inputLines = FileUtils.readLines(new File(path));
-		List<Record> trainRecords = new ArrayList<Record>();
+		List<Record> records = new ArrayList<Record>();
 		for (String inputLine : inputLines) {
+			if (null==inputLine || inputLine.isEmpty())
+				continue;
 			int endIndex = inputLine.indexOf('#');
 			endIndex = (endIndex==-1)?inputLine.length():endIndex;
 			inputLine = inputLine.substring(0, endIndex);
@@ -33,9 +35,9 @@ public class Utility {
 				String []pair = fields[idx].split(":");
 				record.features.put(Integer.parseInt(pair[0].trim()), Double.parseDouble(pair[1].trim()));
 			}
-			trainRecords.add(record);
+			records.add(record);
 		}
-		return trainRecords;
+		return records;
 	}
 	
 }
